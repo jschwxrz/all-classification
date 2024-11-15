@@ -50,7 +50,7 @@ To run the code:
 
 Clone the repository:
 
-- `git clone https://github.com/jschwxrz/ALL-classification.git`
+- `git clone https://github.com/jschwxrz/all-classification.git`
 
 Install the requirements:
 
