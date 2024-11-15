@@ -20,6 +20,14 @@ To evaluate the performance of a model, I chose the F1 score as the metric. As t
 
 The dataset ["Leukemia Classification"](https://www.kaggle.com/datasets/andrewmvd/leukemia-classification/data) [1] consists of 15,135 images of blood cells from 118 patients, segmented from microscopic images of blood samples. The labels are ALL (Acute Lymphoblastic Leukemia) and HEM (normal cells). According to the dataset description, ground truth labels were annotated by an expert oncologist in order to ensure the high quality of the data. It also states that the data is representative of images in the real world because they contain some staining noise and illumination errors, although these errors have largely been fixed in the course of acquisition.
 
+Example of a cell of type ALL:
+
+![Image of ALL cell](https://github.com/jschwxrz/all-classification/blob/main/images/ALL.bmp?raw=true)
+
+Example of a cell of type HEM:
+
+![Image of HEM cell](https://github.com/jschwxrz/all-classification/blob/main/images/HEM.bmp?raw=true)
+
 [1] Gupta, A., & Gupta, R. (2019). ALL Challenge dataset of ISBI 2019 [Data set]. The Cancer Imaging Archive. https://doi.org/10.7937/tcia.2019.dc64i46r
 
 ## Model
